@@ -24,6 +24,7 @@ OF THE POSSIBILITY OF SUCH DAMAGE.
 #define VKFS___UTILS_H
 
 #include <deque>
+#include <functional>
 
 namespace VKFS {
     enum ShaderType {

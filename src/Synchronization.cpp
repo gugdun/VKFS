@@ -55,7 +55,7 @@ void VKFS::Synchronization::resetAll() {
 
 void VKFS::Synchronization::submit(uint32_t imageIndex) {
 
-    if (windowWidth == -1 or windowHeight == -1) {
+    if (windowWidth == -1 || windowHeight == -1) {
         throw std::runtime_error("[VKFS] The window size must be passed to the Sync object using the pushWindowSize() method every frame!");
     }
 
